@@ -51,6 +51,9 @@ int dragymouse;
         jLabel5 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
 
@@ -123,6 +126,20 @@ int dragymouse;
         });
         getContentPane().add(jLabel3);
         jLabel3.setBounds(750, 0, 80, 50);
+
+        jLabel8.setFont(new java.awt.Font("Calibri", 3, 24)); // NOI18N
+        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel8.setText("Gedung E");
+        getContentPane().add(jLabel8);
+        jLabel8.setBounds(540, 130, 120, 30);
+
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tubespbo/images/back.jpg"))); // NOI18N
+        getContentPane().add(jLabel7);
+        jLabel7.setBounds(180, 100, 450, 20);
+
+        jLabel9.setText("*Disarankan untuk melihat Shcedule yang ada terlebih dahulu.");
+        getContentPane().add(jLabel9);
+        jLabel9.setBounds(125, 745, 420, 16);
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tubespbo/images/menuOrder.jpg"))); // NOI18N
         jLabel1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
@@ -282,6 +299,9 @@ int dragymouse;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     private javax.swing.JTextField jTextFieldJamSE;
     private javax.swing.JTextField jTextFieldOrderID;
     private javax.swing.JTextField jTextFieldOrderJamMU;
